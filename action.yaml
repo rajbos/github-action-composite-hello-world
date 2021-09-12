@@ -24,4 +24,7 @@ runs:
     # include an action in here  
     - uses: phwes/simple_hello_world@v1
     
-    - uses: rajbos/github-action-composite-hello-world@main
+    # breaks after 9 iterations: https://github.com/rajbos/actions-testing-grounds/runs/3579825035?check_suite_focus=true
+    #- uses: rajbos/github-action-composite-hello-world@main
+    
+    - uses: rajbos/github-composite-action-goodbye@main
