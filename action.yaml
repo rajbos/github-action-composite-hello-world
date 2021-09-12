@@ -23,3 +23,5 @@ runs:
       shell: bash
     # include an action in here  
     - uses: phwes/simple_hello_world@v1
+    
+    - uses: rajbos/github-action-composite-hello-world@main
