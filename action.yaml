@@ -19,5 +19,5 @@ runs:
       shell: bash
     - run: ${{ github.action_path }}/hello.sh
       shell: bash
-      
-    - uses: rajbos/actions-testing@v1
+    # include an action in here  
+    - uses: phwes/simple_hello_world@v1
