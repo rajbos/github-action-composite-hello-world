@@ -18,7 +18,7 @@ runs:
       run: echo "::set-output name=random-id::$(echo $RANDOM)"
       shell: bash      
     - run: |
-        chmod +x hello.sh
+        chmod +x ${{ github.action_path }}/hello.sh
         ${{ github.action_path }}/hello.sh
       shell: bash
     # include an action in here  
